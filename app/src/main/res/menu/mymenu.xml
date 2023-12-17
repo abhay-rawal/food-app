@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/receipe"
+        android:icon="@drawable/baseline_cookie_24"
+    android:title="Recipes" />
+
+    <item
+        android:id="@+id/meal_planner"
+        android:icon="@drawable/baseline_set_meal_24"
+    android:title="Meal Planner" />
+
+    <item
+        android:id="@+id/blog"
+        android:icon="@drawable/baseline_menu_book_24"
+    android:title="Blog" />
+</menu>

@@ -1,0 +1,77 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/phoneTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Connection"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/phoneDescription" />
+
+    <TextView
+        android:id="@+id/phoneDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Dial the chef directly with a single tap on the provided phone number, fostering immediate and direct communication."
+        app:layout_constraintTop_toBottomOf="@id/phoneTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/callButton" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Call Chef"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        app:layout_constraintTop_toBottomOf="@id/phoneDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/emailTitle" />
+
+    <TextView
+        android:id="@+id/emailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Communication"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintTop_toBottomOf="@id/callButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/emailDescription" />
+
+    <TextView
+        android:id="@+id/emailDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="For more detailed inquiries or to share your thoughts, the ContactFragment features a direct email link. One-click, and you can compose an email to the chef, providing a convenient channel for extended conversations."
+        app:layout_constraintTop_toBottomOf="@id/emailTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/emailButton" />
+
+    <Button
+        android:id="@+id/emailButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Email Chef"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:padding="12dp"
+        android:background="@drawable/button_background"
+        app:layout_constraintTop_toBottomOf="@id/emailDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
