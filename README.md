@@ -18,5 +18,16 @@
     ![Blog](https://github.com/abhay-rawal/food-app/blob/master/app/images/Blog.png)<br>
 10. blog_add<br>
     ![Blog_add](https://github.com/abhay-rawal/food-app/blob/master/app/images/blog_dialogue.png)<br>
+11. Contact: <br>
+    ![Contact](https://github.com/abhay-rawal/food-app/blob/master/app/images/contact.png)<br>
+12. Contact_call:<br>
+    ![contact_call](https://github.com/abhay-rawal/food-app/blob/master/app/images/contact_call.png)
+13. Contact_email:<br>
+    ![contact_email](https://github.com/abhay-rawal/food-app/blob/master/app/images/contact_email.png)
+14. Profile:<br>
+    ![profile](https://github.com/abhay-rawal/food-app/blob/master/app/images/About_me.png)
+15. Profile_add_new_detail:<br>
+    ![Profile_add_new_detail](https://github.com/abhay-rawal/food-app/blob/master/app/images/contact_new_detail.png)
+
 
 
